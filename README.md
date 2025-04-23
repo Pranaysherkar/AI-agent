@@ -100,7 +100,7 @@ Twitter(X) Integration: The agent can post to Twitter(X) using the provided cred
 ### Server
 
 * `index.js`: Main server file that connects to the Model Context Protocol (MCP) server and handles tool execution.
-* 
+* `mcp.tool.js`: Contains the logic for interacting with the Twitter API, authenticating, and posting tweets based
 * `package.json`: Contains server-specific dependencies and configurations.
 * `.env`: Contains environment variables for API keys and credentials.
 
